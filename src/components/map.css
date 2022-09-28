@@ -1,0 +1,28 @@
+.leaflet-tooltip::before {
+    display: none;
+
+}
+.button{
+    position: absolute;
+    z-index: 999999999111111111111111111119;
+    cursor: pointer;
+    background-color: red;
+}
+.leaflet-tooltip{
+    opacity: 1;
+    /*transform: translate3d(-868px, -205px, 0px);*/
+    margin-bottom: 0;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background: #026BB6;
+    color: #fff;
+    border: none;
+}
+.leaflet-container{
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,352 @@
+.leaflet-tooltip::before {
+  display: none;
+
+}
+.App{
+  min-height: 100vh;
+}
+.button{
+  position: absolute;
+  z-index: 999999999111111111111111111119;
+  cursor: pointer;
+  background-color: red;
+}
+.leaflet-tooltip{
+  opacity: 1;
+  margin-bottom: 0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  background: #026BB6;
+  color: #fff;
+  border: none;
+}
+
+.leaflet-popup-content{
+  width: 200px;
+}
+.leaflet-popup-close-button{
+  right: 5px !important;
+  top: 5px !important;
+}
+.leaflet-popup-content-wrapper{
+
+}
+.popup-main{
+  position: fixed;
+  background-color: #FFFFFF;
+  bottom: 0;
+  width: 100%;
+  z-index: 9999999999999;
+  padding: 10px;
+  button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background-color: transparent;
+    img{
+      width: 24px;
+      height: 24px;
+    }
+  }
+  h3{
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+  }
+  span{
+
+  }
+  p{
+    font-size: 14px;
+    color: #9a9999;
+    margin: 0;
+    margin-top: 10px;
+  }
+  label{
+
+  }
+  h4{
+    margin: 0;
+    font-size: 14px;
+  }
+  .main-button{
+    width: 100%;
+    padding: 5px;
+  }
+}
+.leaflet-container{
+  width: 100%;
+  height: 100vh;
+}
+.MainNavbar{
+  padding: 20px;
+  position: fixed;
+  z-index: 9999;
+  margin-right: 20px;
+  width: 100%;
+  .topNav{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+    button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    input{
+      &:focus{
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}
+.mainFooter{
+  position: absolute;
+  background-color: #ffffff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+      background-color: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+
+.mesta{
+  .mesta-count{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    div{
+      margin-right: 30px;
+      h2{
+        margin: 0;
+        color: #026BB6;
+      }
+    }
+  }
+  .emb{
+    display: flex;
+    align-items: center;
+    div{
+      display: flex;
+      align-items: center;
+      div{
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        background-color: #026BB6;
+        margin-right: 10px;
+      }
+      h3{
+        font-size: 20px;
+        margin: 0;
+      }
+      &:nth-child(2){
+        div{
+          margin-left: 30px;
+          background-color: #a8a8a8;
+        }
+      }
+    }
+  }
+}
+.footer-pair{
+  background-color: #577aea;
+  color: #FFF;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-top: auto;
+  ul{
+    li{
+      a{
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.cabinet{
+
+}
+.CabinetNavbarMain{
+
+  background-color: #a0b4fa;
+  .CabinetNavbar{
+    button{
+      background-color: transparent;
+      border: none;
+    }
+}
+}
+
+.left-bar{
+  left: -310px;
+}
+.left-bar-active{
+  left: 0;
+}
+
+.side-bar{
+  position: absolute;
+  display: block;
+  z-index: 99999991;
+  top: 0;
+  bottom: 0;
+  width: 310px;
+  transition: all 1s ease-in-out;
+  background-color: #FFFFFF;
+  .header{
+    background-color: #026BB6;
+    padding: 20px;
+    h3{
+      color: #FFFFFF;
+      margin: 0;
+    }
+    p{
+      color: #FFFFFF;
+      margin: 0;
+    }
+    button{
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .wallet{
+    h3{
+      margin: 0;
+      color: #FFFFFF;
+      font-size: 16px;
+      padding-top: 30px;
+    }
+    p{
+      margin: 0;
+    }
+  }
+  .body{
+    ul{
+      li{
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        a{
+          color: rgba(2, 48, 71, 0.94);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.PersonalCabinet{
+  .pr-cabinet{
+    background-color: #026BB6;
+    padding: 20px;
+
+    .header{
+
+    }
+  }
+  button{
+    outline: none;
+    border: none;
+    box-shadow: none;
+    &:focus{
+      outline: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+  .prCabinet{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 2px solid rgba(210, 206, 206, 0.65);
+    button{
+      background-color: transparent;
+      img{
+        width: 20px;
+      }
+    }
+    h3{
+      color: #0a53be;
+    }
+    h4{
+      color: #0a53be;
+
+    }
+    span{
+      margin-left: 10px;
+      margin-top: 5px;
+      color: #C3C3C3;
+      img{
+        width: 20px;
+        margin-right: 5px;
+        margin-top: -3px;
+      }
+    }
+    p{
+      margin: 10px
+    }
+  }
+  .myAuto{
+    a{
+      background-color: #e3e2e2;
+      display: flex;
+      padding-left: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      justify-content: left;
+      color: #0a53be;
+      text-decoration: none;
+      font-size: 18px;
+      width: 100%;
+    }
+    .auto{
+      margin-top: 10px;
+      img{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 6px;
+        width: 24px;
+        height: 24px;
+      }
+      div{
+        h2{
+          margin: 0;
+          color: #0a53be;
+
+        }
+        span{
+          color: #9a9999;
+        }
+      }
+    }
+  }
+  .not{
+    padding-left: 30px;
+    padding-right: 30px;
+    a{
+      font-size: 18px;
+    }
+  }
+}
